@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    font-family:  cursive;
+    font-size:25px;
+    background-color: cyan;
+}
+img{
+    border-radius:100px;
+    margin-bottom:50px;
+    padding-top:25px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:8px auto;
+}
+.link{
+    float:right;
+    padding-top: 5px;
+    padding-bottom:9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    color:#fff;
+    font-size: 20px;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position:absolute;
+    top:10px;
+    z-index: 10;
+    cursor:pointer;
+    right: 30px;
+}
+.link:hover{
+    background-color: chartreuse;
+}
